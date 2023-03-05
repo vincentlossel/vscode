@@ -1,0 +1,103 @@
+{
+    // Workbench
+	"workbench.startupEditor": "none",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.editor.enablePreview": false,
+	"workbench.colorCustomizations": {
+		"[GitHub Dark]": {},
+	},
+	"workbench.colorTheme": "GitHub Dark Default",
+	"workbench.sideBar.location": "right",
+	"workbench.tree.indent": 18,
+	"workbench.tree.renderIndentGuides": "always",
+
+	// Editor
+	"editor.experimental.asyncTokenization": true,
+	"editor.foldingImportsByDefault": true,
+	"editor.stickyScroll.enabled": true,
+	"editor.wordWrap": "on",
+	"editor.suggest.insertMode": "replace",
+	"editor.minimap.enabled": false,
+	"editor.formatOnSaveMode": "file",
+	"editor.formatOnSave": false,
+	"editor.formatOnPaste": false,
+	"editor.linkedEditing": true,
+	"editor.guides.indentation": true,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.occurrencesHighlight": false,
+	"editor.renderWhitespace": "trailing",
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontSize": 13.5,
+	"editor.fontLigatures": true,
+	"editor.lineHeight": 0,
+	"editor.autoClosingBrackets": "always",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.tabCompletion": "on",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
+
+	// Explorer 
+	"explorer.confirmDelete": false,
+	"explorer.excludeGitIgnore": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.autoReveal": false,
+
+	// Files
+	"files.autoSave": "onFocusChange",
+	"files.defaultLanguage": "markdown",
+	"files.exclude": {
+		"**/__pycache__": true,
+		"**/.DS_Store": true,
+		"**/.idea": true,
+		"**/.vscode": true
+	},
+
+	// Security & (Lack of) Privacy
+	"telemetry.telemetryLevel": "off",
+	"redhat.telemetry.enabled": false,
+	"security.workspace.trust.banner": "never",
+
+	// Go
+	"go.goroot": "/usr/local/go",
+	"go.gopath": "/Users/vincentlossel/.go",
+	"go.logging.level": "verbose",
+	"go.alternateTools": {
+		"dlv": "dlv"
+	},
+
+	// Python
+	"python.analysis.typeCheckingMode": "basic",
+	"python.linting.pylintEnabled": true,
+	"python.linting.enabled": true,
+	"python.formatting.provider": "none",
+	"python.analysis.autoImportCompletions": false,
+	"python.analysis.useLibraryCodeForTypes": false,
+	"python.formatting.autopep8Path": "",
+	"python.formatting.blackPath": "",
+	"python.linting.flake8Enabled": false,
+	"python.linting.flake8Path": "flake8",
+	"[python]": {
+		"editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.ruff": true,
+			"source.organizeImports": true,
+		}
+	},
+	"ruff.organizeImports": true,
+	"ruff.showNotifications": "always",
+    
+    // Jupyter
+	"jupyter.askForKernelRestart": false,
+
+	// Terminal
+	"terminal.external.osxExec": "kitty.app",
+	"terminal.integrated.defaultProfile.osx": "zsh",
+	"terminal.integrated.fontFamily": "JetBrains Mono",
+	"terminal.integrated.fontSize": 13.5,
+
+	//Other
+	"git.showPushSuccessNotification": true,
+}
