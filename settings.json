@@ -1,0 +1,106 @@
+{
+	"workbench.colorTheme": "GitHub Dark Dimmed",
+	"workbench.startupEditor": "none",
+	"workbench.fontAliasing": "antialiased",
+	"workbench.editor.enablePreview": false,
+	"workbench.colorCustomizations": {
+		"[GitHub Dark]": {},
+		"[GitHub Light]": {}
+	},
+	"workbench.tree.indent": 18,
+	"workbench.tree.renderIndentGuides": "always",
+	"editor.experimental.asyncTokenization": true,
+	"editor.foldingImportsByDefault": true,
+	"editor.stickyScroll.enabled": true,
+	"editor.wordWrap": "on",
+	"editor.suggest.insertMode": "replace",
+	"editor.minimap.enabled": false,
+	"editor.formatOnSaveMode": "file",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.linkedEditing": true,
+	"editor.guides.indentation": true,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.occurrencesHighlight": false,
+	"editor.renderWhitespace": "trailing",
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontWeight": "400",
+	"editor.fontSize": 14,
+	"editor.fontLigatures": true,
+	"editor.lineHeight": 1.65,
+	"editor.autoClosingBrackets": "always",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.tabCompletion": "on",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
+	"explorer.confirmDelete": false,
+	"explorer.excludeGitIgnore": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.autoReveal": false,
+	"files.defaultLanguage": "markdown",
+	"files.exclude": {
+		"**/__pycache__": true,
+		"**/.DS_Store": true,
+		"**/.idea": true,
+		"**/.vscode": true,
+		"**/.env/": true,
+		"**/env/": true,
+		"**/.venv/": true,
+		"**/venv/": true
+	},
+	"security.workspace.trust.banner": "never",
+	"security.workspace.trust.startupPrompt": "once",
+	"security.workspace.trust.emptyWindow": true,
+	"security.workspace.trust.enabled": true,
+	"security.workspace.trust.untrustedFiles": "prompt",
+	"terminal.external.osxExec": "kitty.app",
+	"terminal.integrated.defaultProfile.osx": "zsh",
+	"terminal.integrated.fontFamily": "JetBrains Mono",
+	"terminal.integrated.fontSize": 13.5,
+	"telemetry.telemetryLevel": "off",
+	"redhat.telemetry.enabled": false,
+	"go.useLanguageServer": true,
+	"go.alternateTools": {
+		"dlv": "dlv"
+	},
+	"python.analysis.typeCheckingMode": "basic",
+	"python.analysis.autoImportCompletions": false,
+	"python.analysis.useLibraryCodeForTypes": false,
+	"python.envFile": "${workspaceFolder}/env",
+	"python.experiments.enabled": false,
+	"[python]": {
+		"editor.autoIndent": "full",
+		"editor.defaultFormatter": "ms-python.python",
+		"editor.formatOnSave": true,
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		}
+	},
+	"[javascript]": {
+		"editor.maxTokenizationLineLength": 2500,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true,
+		}
+	},
+	"[typescript]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true,
+		}
+	},
+	"[go]": {
+		"editor.insertSpaces": false,
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		},
+	},
+	"jupyter.askForKernelRestart": false,
+	"git.showPushSuccessNotification": true,
+	"git.allowNoVerifyCommit": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"diffEditor.ignoreTrimWhitespace": false
+}
